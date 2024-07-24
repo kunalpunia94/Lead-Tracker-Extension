@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "version": "1.1",
+    "name": "Lead tracker",
+    "action" : {
+        "default_popup": "html.html",
+        "default_icon": "unnamed.png"
+    },
+
+    //this we are adding for the chrome API permession
+    //this part also we copied from the google ---> stackoverflow website
+    "permissions": [
+        "tabs"
+    ]
+}
+
